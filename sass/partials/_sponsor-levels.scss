@@ -1,0 +1,64 @@
+.sponsor-levels--inner, .past-atendees--inner {
+
+    p{
+        @media(max-width: $lg){
+            margin: 8px 0;
+        }
+    }
+
+    .grid-4 {
+        .sponsor-square {
+            width: 320px;
+            height: 320px;
+        }
+    }
+    .grid-5 {
+        .sponsor-square {
+            width: 260px;
+            height: 260px;
+        }
+    }
+    .grid-6 {
+        .sponsor-square {
+            width: 215px;
+            height: 215px;
+        }
+    }
+    .grid-7 {
+        .sponsor-square {
+            width: 182px;
+            height: 182px;
+        }
+    }
+        
+    .sponsor-square {
+        border: 1px solid #C3C3C3;
+        // margin-right: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // padding: 5px;
+        text-align: center;
+        background-color: white;
+        img{
+            height: auto !important;
+            object-fit: contain;
+        }
+        @media (max-width: $lg){
+            width: 160px;
+            height: 160px;
+        }
+        @media (max-width: $sm){
+            width: 100%;
+            aspect-ratio: 1 / 1;
+        }
+    }
+}
+
+.sponsor-levels--inner {
+    .sponsor-square {
+        margin-top:10px;
+        margin-bottom: 10px;
+        
+    }
+}

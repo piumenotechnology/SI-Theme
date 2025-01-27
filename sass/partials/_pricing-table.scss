@@ -1,0 +1,145 @@
+
+
+
+section.pricing {
+
+    .pricing--inner {
+        justify-content: center;
+        @media (max-width: $lg) {
+            flex-direction: column;
+        }
+    }
+    .pricing--single {
+        position: relative;
+        width: calc(33.33% - 50px);
+        text-align: center;
+        flex-direction: column;
+        justify-content: space-between;
+        transition: all .3s linear;
+        border: 1px solid #d2d6d8;
+        margin: 0px 25px 50px;
+        padding: 2.25rem 1.6rem;
+        overflow: hidden;
+        &:hover, &:focus {
+            border-color: #444444;
+            -webkit-box-shadow: 3px 8px 13px -6px #989898;
+            -moz-box-shadow: 3px 8px 13px -6px rgb(152, 152, 152);
+            box-shadow: 3px 8px 13px -6px #989898;
+        }
+        @media (max-width: $xl) {
+            width: calc(33.33% - 20px);
+            margin: 0px 10px 20px;
+        }
+        @media (max-width: $lg) {
+            width: 100%;
+            max-width: 400px;
+            margin: 0px auto 25px;
+        }
+        @media (max-width: $sm) {
+            padding: 30px 1rem;
+        }
+        .pricing--main-link {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 2;
+        }
+        .pricing--title {
+            @include std-font-size(20);
+            margin-bottom: 0px;
+        }
+        .pricing--subtitle {
+            opacity: .7;
+            margin-top: .7rem;
+            margin-bottom: 0px;
+        }
+        .divider {
+            margin: 20px 0;
+            border-color: var(--color-primary);
+        }
+        .pricing--incentive-text {
+            @include std-font-size(48);
+            font-weight: 900;
+            margin-bottom: 0px;
+            line-height: 1;
+            @media (max-width: $xl) {
+                @include std-font-size(40);
+            }
+            @media (max-width: $sm) {
+                margin: 20px 0px 0px;;
+            }
+            span {
+                display: inline-block;
+                margin: 15px 0;
+            }
+        }
+        .pricing--price {
+            @include rfs(80px);
+            font-weight: 900;
+            line-height: 1.2;
+            margin: 50px 0px 80px;
+            display: block;
+            // @media (max-width: $xl) {
+            //     @include std-font-size(60);
+            // }
+            @media (max-width: $lg) {
+                margin: 25px 0px 25px;
+            }
+            @media (max-width: $sm) {
+                @include std-font-size(50);
+            }
+        }
+        .pricing--incentive-text + .pricing--price {
+            margin: 0px 0px 42px;
+            @media (max-width: $lg) {
+                margin: 0px 0px 25px;
+            }
+            @media (max-width: $sm) {
+                margin: 0px 0px 20px;;
+            }
+        }
+        .pricing--perks-inner {
+            display: inline-block;
+            margin: 1rem auto 1.875rem;
+            @media (max-width: $lg) {
+                margin: 0 auto 25px;
+            }
+        }
+        .pricing--perk {
+            text-align: left;
+            margin-bottom: 15px;
+            .pricing-checklist {
+                display: flex;
+                background: #f0d298;
+                height: 18px;
+                width: 18px;
+                justify-content: center;
+                align-items: center;
+                padding: 4px;
+                border-radius: 9px;
+                outline: 1px solid black; 
+            }
+            span:last-of-type {
+                font-size: 11.5pt;
+                // opacity: .5;
+                margin-left: 1rem;
+                margin-top: -1px;
+            }
+            svg {
+                display: initial;
+                vertical-align: initial;
+            }
+        }
+        .pricing--register {
+            background-color: var(--color-primary);
+            color: #ffffff;
+            font-weight: 700;
+            // position: relative;
+            // z-index: 3;
+            // min-width: auto;
+            // box-shadow: 7px 7px 7px rgba(0,0,0,0.06);
+        }
+    }
+}

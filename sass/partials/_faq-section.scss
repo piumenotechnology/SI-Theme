@@ -1,0 +1,52 @@
+.faq {
+    .flickity-prev-next-button {
+        display: none;
+    }
+    .tabsSection.desktop {
+        padding: 50px 0;
+        @media (max-width: $sm){
+                display: none;
+        }
+    }
+    .tabsSectionNavArea {
+        display: flex;
+        button {
+            @include rfs(20px);
+        }
+        .tabsSectionNavItem {
+            -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+            text-align: left;
+            padding-left: 0;
+        }
+        .tabsSectionNavItemCurrent {
+            position: relative;
+        }
+        .tabsSectionNavItem {
+            position: relative;
+        }
+    }
+    .tabsSectionTabIndividual {
+        width: 100%;
+        hr {
+            margin: 35px 0;
+            @media (max-width: $sm){
+                margin: 15px 0;
+            }
+        }
+        .question-container {
+            padding: 20px 0 10px 0;
+        }
+    }
+    .mobile-only {
+        .tabsSectionNoTabs.wrapper {
+            padding-top: 25px;
+            padding-bottom: 25px;
+        }
+        .mt-50:first-of-type {
+            @media (max-width: $sm){
+                margin-top: 18px
+            }
+        }
+    }
+}

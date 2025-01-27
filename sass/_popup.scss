@@ -1,0 +1,11 @@
+
+
+div.cc-bottom {
+    background: white;
+    border-top: 1px solid #cecece; 
+    a, span {
+        @include std-font-size(15);
+        font-family: 'Montserrat', sans-serif;
+        transition: color .3s ease;
+    }
+}

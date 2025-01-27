@@ -1,0 +1,94 @@
+
+
+@media print {
+    
+    * {
+      -webkit-print-color-adjust: exact;
+    }
+  
+    body {
+      margin: 0px;
+    }
+
+    .top-height {
+      margin-top: 0px !important;
+    }
+  
+    @page {
+      size: landscape;
+   }
+
+   section.hero-small {
+       display: none;
+   }
+
+   header {
+      position: static !important;
+      display: none;
+   }
+
+  a.printer {
+    display: none;
+  }
+  
+  //  Agenda items
+  .agenda--wrapper {
+    padding-top: 0px !important;
+  }
+
+  .agenda--items {
+    height: auto !important;
+  }
+  .agenda--item {
+    position: relative !important;
+    top: auto !important;
+  }
+
+  .agenda--content {
+    height: auto !important;
+    overflow: auto;
+  }
+
+  .agenda--content-overlay {
+    display: none;
+  }
+
+  .agenda--navigation {
+    margin-bottom: 15px;
+    .tracks--btn {
+      display: none;
+    }
+    .tracks {
+      display: none;
+    }
+  }
+
+  .agenda--speakers {
+    .agenda--speaker-image {
+      display: none;
+    }
+    .flickity-button {
+      display: none;
+    }
+  }
+
+  // Single Speaker
+  .speaker-single--next {
+    display: none;
+  }
+
+  .single-speakers h1:after {
+    display: none;
+  }
+
+  section.newsletter {
+    display: none;
+  }
+
+  footer {
+    display: none;
+  }
+
+
+}
+  

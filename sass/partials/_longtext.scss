@@ -1,0 +1,17 @@
+.longtext {
+  @apply mt-8 md:mt-10 pb-5 md:pb-10;
+}
+.longtext p {
+  @apply mb-4 first-of-type:mb-7 first-of-type:text-xl font-medium;
+}
+.longtext ul {
+  @apply text-base mb-5;
+}
+.longtext {
+  ul li {
+    @apply mb-2 pb-3 ml-4 list-disc;
+  }
+  ol li {
+    @apply mb-2 pb-3 ml-4 list-decimal;
+  }
+}

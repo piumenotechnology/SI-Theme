@@ -1,0 +1,1292 @@
+{
+    "key": "group_5d769cb4c7818",
+    "title": "Theme Options",
+    "fields": [
+        {
+            "key": "field_5d769cc7bbed3",
+            "label": "Colours",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5d769d1c3a6ce",
+            "label": "Accent Colour",
+            "name": "accent_color",
+            "type": "color_picker",
+            "instructions": "Select the accent colour for the site.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#F58B1E"
+        },
+        {
+            "key": "field_5d7a8b8a8fade",
+            "label": "Primary Colour",
+            "name": "primary_color",
+            "type": "color_picker",
+            "instructions": "Select the body font colour for the site.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#313131"
+        },
+        {
+            "key": "field_5d7a8b8c8fadf",
+            "label": "Secondary Colour",
+            "name": "secondary_color",
+            "type": "color_picker",
+            "instructions": "Select the secondary font colour, used for hero font and main button font colour for the site.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#FFFFFF"
+        },
+        {
+            "key": "field_5d769d84ff8bc",
+            "label": "Grey Background",
+            "name": "grey_background",
+            "type": "color_picker",
+            "instructions": "Select the colour for the grey background",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#F9FAFC"
+        },
+        {
+            "key": "field_5d7bdc3aa96d4",
+            "label": "Hero Overlay Color",
+            "name": "hero_overlay",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#000000"
+        },
+        {
+            "key": "field_5d77ac27ccacf",
+            "label": "Footer Background Colour",
+            "name": "footer_background_color",
+            "type": "color_picker",
+            "instructions": "Select the background colour for the footer",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#313131"
+        },
+        {
+            "key": "field_5d77ac8121780",
+            "label": "Footer Font Colour",
+            "name": "footer_font_color",
+            "type": "color_picker",
+            "instructions": "Select the font colour for the footer",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#FFFFFF"
+        },
+        {
+            "key": "field_5d791ce392358",
+            "label": "Header",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5d791d0492359",
+            "label": "Header Logo",
+            "name": "header_logo",
+            "type": "image",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "id",
+            "preview_size": "full",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_666c5d48f957c",
+            "label": "Header Logo invert",
+            "name": "header_logo_invert",
+            "type": "image",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "id",
+            "preview_size": "full",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5d794c987623e",
+            "label": "Event Location",
+            "name": "event_location",
+            "type": "textarea",
+            "instructions": "Enter the location of the event this will appear in the header",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_5dadcd7fc6a86",
+            "label": "Event Location Link",
+            "name": "event_location_link",
+            "type": "link",
+            "instructions": "If you'd like to link the event location area insert the link here.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array"
+        },
+        {
+            "key": "field_5d794ce57623f",
+            "label": "Event Dates",
+            "name": "event_dates",
+            "type": "text",
+            "instructions": "Enter the dates of the event this will appear in the header",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5d7934d2977c8",
+            "label": "Register Button",
+            "name": "register_button",
+            "type": "link",
+            "instructions": "Enter the link for the registration link in the header",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array"
+        },
+        {
+            "key": "field_5d769dfa97b48",
+            "label": "Footer",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5d769e3511ba8",
+            "label": "Footer  Title",
+            "name": "footer_title",
+            "type": "textarea",
+            "instructions": "Enter the text to appear in the Footer Section first column",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_5d769ec511ba9",
+            "label": "Footer Dates",
+            "name": "footer_dates",
+            "type": "text",
+            "instructions": "Enter the range of dates for the event",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5d76b0ec8e1d1",
+            "label": "First Footer Button",
+            "name": "footer_button",
+            "type": "link",
+            "instructions": "Enter the link for the first button in the footer",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array"
+        },
+        {
+            "key": "field_5d76b1178e1d2",
+            "label": "Second Footer Button",
+            "name": "second_footer_button",
+            "type": "link",
+            "instructions": "Enter the link for the first second in the footer",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array"
+        },
+        {
+            "key": "field_5d76a01259b69",
+            "label": "Social Media Title",
+            "name": "social_title",
+            "type": "text",
+            "instructions": "Title for Social Media Nav (third column)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Follow Us",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5d76a8818986b",
+            "label": "Instagram",
+            "name": "instagram",
+            "type": "url",
+            "instructions": "Enter link for Instagram",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5d76a8d08986c",
+            "label": "Linkedin",
+            "name": "linkedin",
+            "type": "url",
+            "instructions": "Enter link for Linkedin",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5d76a8d28986d",
+            "label": "Twitter",
+            "name": "twitter",
+            "type": "url",
+            "instructions": "Enter link for Twitter",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5d76a8d38986e",
+            "label": "Youtube",
+            "name": "youtube",
+            "type": "url",
+            "instructions": "Enter link for Youtube",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5d76a7688986a",
+            "label": "Support Nav Title",
+            "name": "support_nav",
+            "type": "text",
+            "instructions": "Title for Menu in third column",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Support",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5d769eea11baa",
+            "label": "Footer Logo",
+            "name": "footer_logo",
+            "type": "image",
+            "instructions": "Logo in fourth column",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "full",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": 350,
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5d9ce2a642dd3",
+            "label": "Footer Logo Link",
+            "name": "footer_logo_link",
+            "type": "url",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "https:\/\/www.strategyinstitute.com\/",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5d8b733d16d01",
+            "label": "Event Details",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5d82479b37845",
+            "label": "Event Starting Date",
+            "name": "event_starting_date",
+            "type": "date_picker",
+            "instructions": "Enter the starting date of the event this will be used for countdown elements.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "display_format": "Y-m-d",
+            "return_format": "Y-m-d",
+            "first_day": 1
+        },
+        {
+            "key": "field_5d8b734f16d02",
+            "label": "Event is Today",
+            "name": "event_is_today",
+            "type": "text",
+            "instructions": "Message to display in countdown section if the event is today",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Today",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5d8b738516d03",
+            "label": "Event is Done",
+            "name": "event_is_done",
+            "type": "text",
+            "instructions": "Message to display in countdown section if the event is complete",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "This event is now over. We'll see you next year!",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5d8e27b7c0045",
+            "label": "Newsletter",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5d8e27c0c0046",
+            "label": "Newsletter Title",
+            "name": "newsletter_title",
+            "type": "text",
+            "instructions": "Insert a title for the newsletter signup area",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5d8e767472e91",
+            "label": "Newsletter Form",
+            "name": "newsletter_form",
+            "type": "wysiwyg",
+            "instructions": "Insert the newsletter form",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_5d8e762dc63d2",
+            "label": "Privacy Policy Link",
+            "name": "privacy_policy_link",
+            "type": "link",
+            "instructions": "Insert the privacy policy link and the text you want displayed.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array"
+        },
+        {
+            "key": "field_5d8e27f8c0047",
+            "label": "Additional Info Title",
+            "name": "additional_info_title",
+            "type": "text",
+            "instructions": "Text for the additional info area",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "What you can expect",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5d8e281dc0048",
+            "label": "General Email Label",
+            "name": "general_email_label",
+            "type": "text",
+            "instructions": "Insert text for the general email label",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "General email",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5d8e2880c004b",
+            "label": "General Email Address",
+            "name": "general_email_address",
+            "type": "email",
+            "instructions": "Insert general email address",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "customercare@strategyinstitute.com",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_5d8e283bc0049",
+            "label": "Sponsorships Label",
+            "name": "sponsorships_label",
+            "type": "text",
+            "instructions": "Insert text for the sponsorships label",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Sponsorships",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5d8e28dac004c",
+            "label": "Sponsorships Email Address",
+            "name": "sponsorships_email_address",
+            "type": "email",
+            "instructions": "Insert sponsorships email address",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_5d8e2868c004a",
+            "label": "Phone Label",
+            "name": "phone_label",
+            "type": "text",
+            "instructions": "Insert text for the phone label",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Phone",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5d8e2900c004d",
+            "label": "Phone Number",
+            "name": "phone_number",
+            "type": "text",
+            "instructions": "Insert phone number",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5d8e2a233fb03",
+            "label": "Phone Number Extension",
+            "name": "phone_number_extension",
+            "type": "number",
+            "instructions": "Optional Phone Number Extension",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "min": "",
+            "max": "",
+            "step": ""
+        },
+        {
+            "key": "field_5d8e42528197d",
+            "label": "FAQs",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5d8e47ce87f35",
+            "label": "Show FAQ",
+            "name": "show_faq",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 0,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5d8e426c8197e",
+            "label": "FAQ Title",
+            "name": "faq_title",
+            "type": "text",
+            "instructions": "Enter the title for the FAQ section",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5d8e47ce87f35",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "FREQUENTLY ASKED QUESTIONS",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5d8e46d7b54d6",
+            "label": "FAQ Repeater",
+            "name": "faq_repeater",
+            "type": "repeater",
+            "instructions": "Enter the information you want to appear in the FAQ sections",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5d8e47ce87f35",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "field_5d8e46f7b54d7",
+            "min": 0,
+            "max": 0,
+            "layout": "block",
+            "button_label": "Add FAQ",
+            "sub_fields": [
+                {
+                    "key": "field_5d8e46f7b54d7",
+                    "label": "Tab Title",
+                    "name": "tab_title",
+                    "type": "text",
+                    "instructions": "The title to appear on the tab",
+                    "required": 1,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5d8e47ce87f35",
+                                "operator": "==",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5d8e472ab54d8",
+                    "label": "Tab Content",
+                    "name": "tab_content",
+                    "type": "repeater",
+                    "instructions": "The content to appear under the tab",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5d8e47ce87f35",
+                                "operator": "==",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "collapsed": "",
+                    "min": 0,
+                    "max": 0,
+                    "layout": "table",
+                    "button_label": "",
+                    "sub_fields": [
+                        {
+                            "key": "field_5d8e4767b54d9",
+                            "label": "Question",
+                            "name": "question",
+                            "type": "text",
+                            "instructions": "Enter your question here",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_5d8e4774b54da",
+                            "label": "Answer",
+                            "name": "answer",
+                            "type": "wysiwyg",
+                            "instructions": "Enter the answer",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "tabs": "all",
+                            "toolbar": "full",
+                            "media_upload": 1,
+                            "delay": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "field_5d979bed227b0",
+            "label": "Pages",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5d80e6facf104",
+            "label": "Individual Speaker Pages: Sessions By",
+            "name": "sessions_by",
+            "type": "text",
+            "instructions": "Wording before the speakers schedule.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "All Sessions by",
+            "placeholder": "All Sessions by",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5d93ae6cff70d",
+            "label": "Resources: Related Articles Title",
+            "name": "related_articles_title",
+            "type": "text",
+            "instructions": "Enter the title you would like to appear on all single resource posts in the related articles section",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Related Articles",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5d80e77fcf105",
+            "label": "Individual Speaker's Pages: Agenda Link",
+            "name": "agenda_link",
+            "type": "link",
+            "instructions": "Select page to link to.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array"
+        },
+        {
+            "key": "field_5d95171a708d2",
+            "label": "Agenda Pages: Download Brochure Link",
+            "name": "download_brochure_link",
+            "type": "link",
+            "instructions": "Insert the agenda CTA link",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array"
+        },
+        {
+            "key": "field_5daf1a0fcc966",
+            "label": "No Agenda Items Message",
+            "name": "no_agenda_items_message",
+            "type": "text",
+            "instructions": "The message you would like to display if there are no agenda items.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5d890106cf8bf",
+            "label": "Multiple Pages: Sponsor Level Order",
+            "name": "sponsor_level_order",
+            "type": "taxonomy",
+            "instructions": "Select the order Sponsor Levels should displayed in.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "taxonomy": "sponsor_levels",
+            "field_type": "multi_select",
+            "allow_null": 0,
+            "add_term": 1,
+            "save_terms": 0,
+            "load_terms": 0,
+            "return_format": "object",
+            "multiple": 0
+        },
+        {
+            "key": "field_5dadd30bec9c1",
+            "label": "General: Printer Friendly",
+            "name": "general_printer_friendly",
+            "type": "true_false",
+            "instructions": "Would you like to display the printer friendly link?",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 1,
+            "ui": 0,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5d97a1a4e7f3e",
+            "label": "Custom Code",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5d97a1b0e7f3f",
+            "label": "Custom CSS",
+            "name": "custom_css",
+            "type": "textarea",
+            "instructions": "Insert any custom CSS to the site",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_5d97a1c4e7f40",
+            "label": "Custom JS",
+            "name": "custom_js",
+            "type": "textarea",
+            "instructions": "Insert any custom JS to the site",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_5d97a8a41b749",
+            "label": "Google Tag Manager Code For Head",
+            "name": "google_tag_manager_code_for_head",
+            "type": "textarea",
+            "instructions": "Insert GTM code that belongs in the head",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_5d97a8e1ed7e9",
+            "label": "Google Tag Manager Code for Body",
+            "name": "google_tag_manager_code_for_body",
+            "type": "textarea",
+            "instructions": "Insert the GTM code that belongs in the body",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_5dae02658c131",
+            "label": "Activate Cookie Warning",
+            "name": "activate_cookie_warning",
+            "type": "true_false",
+            "instructions": "Would you like to activate the cookie message? It is recommended to keep this activated.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 1,
+            "ui": 0,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5dae023b8c130",
+            "label": "Cookie Message",
+            "name": "cookie_message",
+            "type": "textarea",
+            "instructions": "Insert the message for the cookie warning area.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "This website uses cookies to ensure you get the best experience on our website.",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_5dae04c747add",
+            "label": "Cookie Link Text",
+            "name": "cookie_link_text",
+            "type": "text",
+            "instructions": "Enter text for the link leading to the privacy policy page.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Learn More",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5dae04de47ade",
+            "label": "Cookie Dismiss Text",
+            "name": "cookie_dismiss_text",
+            "type": "text",
+            "instructions": "Enter text for the cookie dismiss button.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Got it!",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "acf-options-theme-options"
+            }
+        ]
+    ],
+    "menu_order": 350,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1730923349
+}

@@ -1,0 +1,30 @@
+.sponsors .post-header--inner {
+    
+    img {
+        border-radius: 0%;
+        width: 250px;
+        height: auto;
+        border: 1px solid #707070;
+        padding: 15px;
+        background-color: #ffffff;
+        @media (max-width: $lg){
+            width: 200px;
+        }
+    }
+    .sponsor-title {
+        @media (max-width: $md){
+            margin-top: 25px;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+    }
+    h1.h2 {
+        margin-bottom: 60px;
+    }
+    .logo {
+        max-width: 150px;
+        height: max-content;
+        border: 1px solid #707070;
+        padding: 15px;
+    }
+}

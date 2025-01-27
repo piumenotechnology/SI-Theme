@@ -1,0 +1,18 @@
+.event-info-container {
+   @apply w-full hidden md:flex text-base gap-10 mt-20 lg:mt-16;
+   .event-info {
+      @apply flex gap-4 items-center justify-center;
+      svg {
+         @apply h-10 fill-[color:var(--color-accent)];
+      }
+   }
+}
+.event-info-container--mobile {
+   @apply flex md:hidden flex-col w-2/3 mx-auto mt-10;
+   .event-info--icon {
+      @apply w-1/5 flex justify-center items-center;
+      svg {
+         @apply h-10 fill-[color:var(--color-accent)];
+      }
+   }
+}

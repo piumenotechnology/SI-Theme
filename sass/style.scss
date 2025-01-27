@@ -1,0 +1,82 @@
+/*!
+* Theme Name: Big Data
+* Description: Strategy Institute Theme
+* Version: 1.0
+* Author: Strategy Institute.
+*/
+
+/* // 
+// Tailwind
+//  */
+@import 'tailwind';
+
+/* //
+// Packages
+// */
+@import "../vendors/rfs/scss.scss";
+
+/* //
+//starters
+// */
+// @import 'normalize';
+@import 'variables';
+@import 'base';
+// @import 'navigation';
+@import 'comments'; 
+@import 'typography';
+// @import 'header';
+@import 'heros';
+@import 'footer';
+@import 'print';
+@import 'popup';
+
+/* // 
+// Partials
+//  */
+@import 'partials/flexible-content-area';
+@import 'partials/flexible-content-area-image-left';
+@import 'partials/flexible-content-large-wrapper';
+@import 'partials/links-inner';
+@import 'partials/inquiry-form';
+@import 'partials/top-five';
+@import 'partials/image-slider';
+// @import 'partials/home-hero';
+@import 'partials/sponsor-levels';
+// @import 'partials/testimonials';
+@import 'partials/attendees';
+// @import 'partials/rave';
+@import 'partials/boxes';
+@import 'partials/newsletter';
+@import 'partials/recommended-content';
+@import 'partials/faq-section';
+@import 'partials/pricing-table';
+@import 'partials/group-discount';
+@import 'partials/inquiry-btn';
+
+/* // 
+// Pages
+//  */
+@import 'pages/speakers';
+@import 'pages/speakers-single';
+@import 'pages/download';
+@import 'pages/contact';
+@import 'pages/agenda';
+// @import 'pages/home';
+@import 'pages/sponsors';
+@import 'pages/sponsors-single';
+@import 'pages/about';
+@import 'pages/resources';
+@import 'pages/resources-single';
+@import 'pages/404';
+@import 'pages/default_page';
+
+/* // 
+// Plugins
+//  */
+@import 'plugins/pardot';
+@import 'plugins/gravity-forms';
+
+/* // 
+// Vendors
+//  */
+@import 'vendors/flickity';

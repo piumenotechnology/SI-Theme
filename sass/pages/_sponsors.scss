@@ -1,0 +1,28 @@
+.stats-images--inner {
+    .thirds > div {
+        text-align: center;
+    }
+    img {
+        max-width: 128px;
+        height: auto;
+        @media (max-width: $sm){
+            max-width: 200px;
+        }
+    }
+    .mt-50 {
+        @media (max-width: $sm){
+            margin-top: 20px;
+        }
+    }
+    .number {
+        @include std-font-size(100);
+        font-weight: 900;
+        line-height: .85;
+        @media (max-width: $md) {
+            @include std-font-size(60);
+        }
+    }
+    .stat-desc {
+        margin-top: 30px;
+    }
+}

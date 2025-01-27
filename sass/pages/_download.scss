@@ -1,0 +1,139 @@
+
+
+.download-hero .wrapper {
+    padding-bottom: 30px;
+}
+
+.download-hero--inner {
+    margin-bottom: 50px;
+    @media (max-width: $md) {
+        margin-bottom: 50px;
+    }
+    h1 {
+        max-width: 800px;
+        line-height: 1;
+        // @media (max-width: $md) {
+        //     text-align: center;
+        // }
+    }
+    .download-hero--image {
+        max-width: 480px;
+        flex-grow: 1;
+        @media (max-width: $md) {
+            margin-top: 80px;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
+
+.download-form--inner {
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-bottom: 80px;
+    .download-form--form {
+        padding-right: 200px;
+        @media (max-width: $lg) {
+            padding-right: 100px;
+        }
+        @media (max-width: $md) {
+            padding-right: 0px;
+        }
+    }
+    .download-form--details {
+        max-width: 480px;
+        padding: 30px;
+        & > div {
+            margin-bottom: 50px;
+        }
+        & > div:last-child {
+            margin-bottom: 0px;
+        }
+        .download-form--checkbox {
+            background: white;
+            width: 53px;
+            height: 53px;
+            min-width: 53px;
+            max-width: 53px;
+            border: 1px solid #9F9F9F;
+            position: relative;
+            flex: 1 0 auto;
+            margin-right: 30px;
+            svg {
+                position: absolute;
+                right: -15px;
+                top: -5px;
+            }
+        }
+        p {
+            @include std-font-size(30);
+            line-height: 1;
+            font-weight: bold;
+            @media (max-width: $xl) {
+                @include std-font-size(20);
+            }
+        }
+    }
+}
+
+
+.download-flexible--inner {
+    .download-flexible--features {
+        margin-top: 70px;
+        @media (max-width: $md) {
+            margin-top: 50px;
+        }
+    }
+    .download-form--details {
+        text-align: center;
+        margin: 0 -25px;
+        @media (max-width: $xl) {
+            margin: 0px;
+        }
+        @media (max-width: $lg) {
+            flex-direction: column;
+            width: 100%;
+        }
+        .download-form--details-single {
+            width: calc(33.333% - 50px);
+            margin: 0px 25px;
+            background: white;
+            padding: 30px;
+            @media (max-width: $lg) {
+                width: 100%;
+                margin: 0px auto 25px;
+                max-width: 400px;
+            }
+            svg {
+                height: 85px;
+            }
+            h3 {
+                margin: 30px 0px 50px 0px;
+                position: relative;
+                &:after {
+                    content: "";
+                    position: absolute;
+                    height: 6px;
+                    width: 60%;
+                    margin: 0 auto;
+                    left: 0;
+                    right: 0;
+                    bottom: -23px;
+                }
+            }
+            p {
+                word-break: break-word;
+            }
+        }
+    }
+}
+
+
+// IE11 fix
+body.IE .download-flexible--inner .download-form--details .download-form--details-single p {
+    word-wrap: break-word;
+}

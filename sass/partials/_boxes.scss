@@ -1,0 +1,81 @@
+.box{
+   max-width: calc(33.33% - (160px / 3));
+   text-align: center;
+   background: white;
+   padding: 60px 70px;
+   box-shadow: 7px 7px 7px rgba(0,0,0,0.07);
+   transition: all .3s linear;
+   &:hover, &:focus {
+      -webkit-box-shadow: 3px 10px 13px -10px rgba(133,133,133,1);
+      -moz-box-shadow: 3px 10px 13px -10px rgba(133,133,133,1);
+      box-shadow: 3px 14px 13px -6px #858585;
+   }
+   @media (max-width: $xl){
+      padding: 40px;
+   }
+   @media(max-width: $lg){
+      max-width: calc(33.33% - (100px / 3));
+      padding: 40px 30px;
+   }
+   @media(max-width: $md){
+      max-width: calc(33.33% - (40px / 3));
+      padding: 40px 20px;
+   }
+   @media(max-width: $sm){
+      max-width: calc(33.33% - (20px / 3));
+      padding: 30px 10px;
+   }
+   @media(max-width: $xs){
+      max-width: 100%;
+      padding: 20px;
+   }
+   &:nth-of-type(2){
+      margin-left: 80px;
+      margin-right: 80px;
+      @media(max-width: $lg){
+          margin-left: 50px;
+         margin-right: 50px;
+      }
+      @media(max-width: $md){
+          margin-left: 20px;
+         margin-right: 20px;
+      }
+      @media(max-width: $sm){
+          margin-left: 10px;
+         margin-right: 10px;
+      }
+       @media(max-width: $xs){
+         margin-left: 0;
+         margin-right: 0;
+         margin-top: 10px;
+         margin-bottom: 10px;
+      }
+   }
+   i{
+      @include rfs(100px);
+      display: block;
+      margin-bottom: 30px;
+      @media (max-width: $xl){
+         margin-bottom: 20px;
+      }
+       @media (max-width: $sm){
+         @include rfs(60px);
+         margin-bottom: 10px;
+      }
+   }
+   a{
+      margin-bottom: 10px;
+      display: block;
+      position: relative;
+      height: 100%;
+      @media(max-width: $lg){
+          @include std-font-size(17);
+      }
+      @media(max-width: $md){
+          @include std-font-size(15);
+      }
+       @media(max-width: $sm){
+          @include std-font-size(13);
+      }
+   }
+}

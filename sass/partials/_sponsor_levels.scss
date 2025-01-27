@@ -1,0 +1,29 @@
+.sponsor-levels--inner, .past-atendees--inner {
+    .level-container {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .sponsor-square {
+        width: 180px;
+        height: 180px;
+        border: 1px solid #C3C3C3;
+        margin-right: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        @media (max-width: $sm){
+            width: 160px;
+            height: 160px;
+        }
+    }
+}
+
+.sponsor-levels--inner {
+    .sponsor-square {
+        
+        margin-top:10px;
+        margin-bottom: 10px;
+        
+    }
+}

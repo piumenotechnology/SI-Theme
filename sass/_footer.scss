@@ -1,0 +1,158 @@
+//footer stlye
+.footer--wrapper {
+    padding: 100px 0;
+    @media(max-width: $xxl){
+         padding: 50px 0;
+    }
+    .wrapper-large{
+        position: relative;
+    }
+    h3{
+        @media(max-width: $xxl){
+            @include std-font-size(22);
+        }  
+        @media(max-width: $md){
+            @include std-font-size(18);
+        }
+    }
+    a, p{
+        @media(max-width: $xxl){
+            @include std-font-size(16);
+        }
+    }
+   
+}
+.footer--inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    .footer--info {
+        @media (max-width: $xl){
+            flex-grow: 1;
+        }
+        @media(max-width: $md){
+            width: 100% !important;
+            max-width: 100% !important;
+            text-align: center;
+            display: block;
+            margin-bottom: 30px;
+        }
+        p { 
+            text-transform: none;
+            margin: 15px 0;
+        }
+    }
+    .btn-one {
+        display: block;
+        @include std-font-size(16);
+        min-width: unset;
+        width: 236px;
+        margin: 15px 0;
+        padding: 8px;    
+        @media(max-width: $md){
+           text-align: center;
+           margin: 15px auto;
+        }    
+    }
+    .footer--middle {
+        display: flex;
+        width: 33%;
+        @media (max-width: $xl){
+            justify-content: space-between;
+        }
+    }
+    .footer--social {
+        display: inline-block;
+        margin-right: 40px;
+        @media (max-width: $xxl){
+            margin-right: 20px;
+        }
+        h3, a {
+            margin-bottom: 20px;
+        }
+        a {
+            display: block;
+        }
+        .fab {
+            margin-right: 15px;
+            width: 25px;
+            @include std-font-size(25);
+            @media(max-width: $xxl){
+               margin-right: 10px;
+            }
+        }
+        p {
+            display: inline;
+        }
+    }
+    .footer--support {
+        display: inline-block;
+        h3, li {
+            margin-bottom: 20px;
+        }
+        li {
+            list-style: none;
+        }
+    }
+    .footer--logo {
+        display: inline-block;
+        @media(max-width: $xl){
+            width: 100% !important;
+            max-width: 100% !important;
+            text-align: center;
+            display: block;
+            margin-top: 30px;
+        }
+        
+        p {
+            @include std-font-size(18);
+        }
+        .back-to-top {
+            writing-mode: vertical-rl;
+            position: absolute;
+            right: -80px;
+            height: 100%;
+            top: 0;
+            @media (max-width: $xxl){
+                position: static;
+                float: right;
+                margin-top: 60px;
+                writing-mode: horizontal-tb;
+                height: auto;
+                @include std-font-size(12);
+
+            }
+            @media (max-width: $xl){
+                float: none;
+            }
+            svg{
+               @media (max-width: $xxl){
+                    max-height: 20px;
+                    display: block;
+                    margin: 0 auto;
+                    margin-bottom: 10px;
+               }
+            }
+        }
+    }
+}
+
+.footer--inner.thirds {
+    > div {
+    width: unset;
+    max-width: 33.333333%;
+        @media (max-width: $lg){
+            max-width: 50%;
+        }
+        @media (max-width: $md){
+            max-width: 100%;
+        }
+    }
+    //creating space between the two menus
+    .footer--middle {
+        max-width: unset;
+        flex-grow: 1;
+        justify-content: space-evenly;
+    }
+}

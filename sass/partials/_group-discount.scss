@@ -1,0 +1,122 @@
+section.group-discount  {
+    .discounts {
+        &.type-card {
+            margin: 35px -25px;
+        }
+        margin-top: 35px;
+        // margin: 35px -25px;
+        @media (max-width: $md) {
+            flex-direction: column;
+            // margin: 25px -25px;
+        }
+        .discounts--single {
+            // width: calc(33.33% - 50px);
+            margin: 8px 25px;
+            background: #fff;
+            text-align: center;
+            padding: 25px 15px;
+            box-shadow: 0 3px 5px 1px rgba(0, 0, 0, .07);
+            border: 1px solid #959595;
+            border-radius: 12px;
+            @media (max-width: $md) {
+                width: 100%;
+                max-width: 300px;
+                margin: 0px auto 25px auto;
+            }
+            .discounts--single-label {
+                margin-bottom: 0px;
+            }
+            .discounts--single-text {
+                @include rfs(56px);
+                margin: 25px 0px;
+                font-weight: 900;
+                line-height: 1;
+                @media (max-width: $md) {
+                    margin: 15px 0px;
+                    @include rfs(80px);
+                }
+            }
+        }
+        .discounts--table {
+            width: 100%;
+            display: flex;
+            border: 1px solid  #000000;
+            border-top: unset;
+            &:first-of-type {
+                border-top: 1px solid  #000000;
+                -webkit-border-top-left-radius: 12px;
+                -webkit-border-top-right-radius: 12px;
+                -moz-border-radius-topleft: 12px;
+                -moz-border-radius-topright: 12px;
+                border-top-left-radius: 12px;
+                border-top-right-radius: 12px;
+            }
+            &:last-of-type {
+                -webkit-border-bottom-right-radius: 12px;
+                -webkit-border-bottom-left-radius: 12px;
+                -moz-border-radius-bottomright: 12px;
+                -moz-border-radius-bottomleft: 12px;
+                border-bottom-right-radius: 12px;
+                border-bottom-left-radius: 12px;
+            }
+            .discounts--table-column {
+                padding: 1rem;
+                &:first-child {
+                    border-right: 1px solid #000000;
+                    span {
+                        font-weight: 800;
+                        font-size: 28px;
+                        margin-right: 5px;
+                    }
+                }
+            }
+        }
+    }
+    .discounts--form {
+        h3 {
+            font-size: 1.375rem;
+        }
+        .gform_wrapper {
+            margin-top: unset;
+            div.gform_body ul {
+                display: flex;
+                flex-wrap: wrap;
+                li.gfield {
+                    width: 100%;
+                    @media (min-width: $xl){
+                        width: 50%;
+                    }
+                    &:first-child input {
+                        margin-top: 40px; 
+                    }
+                }
+            }
+        }
+    }
+
+    .splited {
+        .discounts {
+            &.type-card {
+                margin: 35px -10px; 
+            }
+            .discounts--single {
+                max-width: calc(50% - 20px);
+                min-width: calc(33.33% - 20px);
+                flex: 0 1 auto;
+                margin: 8px 10px;
+                @media (max-width: $md) {
+                    width: 100%;
+                    max-width: 300px;
+                    margin: 0px auto 25px auto;
+                }
+                .discounts--single-text {
+                    font-size: 2.5rem;
+                }
+            }
+        }
+        .gfield_visibility_visible.checkbox {
+            width: 100% !important;
+        }
+    }
+
+}

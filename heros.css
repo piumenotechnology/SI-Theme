@@ -1,0 +1,2 @@
+.hero-small{height:542px;position:relative}.hero-small .imgOverlay{z-index:1;position:absolute;bottom:0;right:0;left:0;top:0}.hero-small .wrapper{height:542px;display:flex;flex-direction:column;justify-content:center}.hero-small .wrapper .hero-small-inner{z-index:2}.hero-small .wrapper h1{line-height:134px}.hero-small .wrapper .subheading{margin-top:100px}
+/*# sourceMappingURL=heros.css.map */

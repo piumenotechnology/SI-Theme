@@ -1,0 +1,13 @@
+
+
+.error404 {
+    h1 {
+        margin-bottom: 50px;
+        @media (max-width: $lg) {
+            margin-bottom: 30px;
+        }
+        @media (max-width: $md) {
+            margin-bottom: 30px;
+        }
+    }
+}

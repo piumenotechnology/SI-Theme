@@ -1,0 +1,48 @@
+.home{
+   header{
+      background: transparent;
+      .main-nav{
+            background: transparent;
+         }
+      &.fixed{
+         .main-nav{
+            background: white;
+         }
+      }
+   }
+   .menu-button span{
+      background: white;
+   }
+   .fixed{
+      .nav-section .btn-one{
+         color: white;         
+      }
+   }
+
+   .featured-speakers{
+      .cta-container{
+         width: 100%;
+         text-align: center;
+      }
+   }
+   .nav-section a{
+      color: white;
+   }
+
+   .nav-section .btn-one{
+      color: white;
+   }
+
+   .home-featured-speakers{
+      .btn-one{
+         margin-top: 68px;
+         @media (max-width: $lg){
+            margin-top: 40px;
+         }
+         @media (max-width: $md){
+            margin-top: 40px;
+         }
+
+      }
+   }
+}

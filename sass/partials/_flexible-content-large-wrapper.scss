@@ -1,0 +1,29 @@
+.flexible-content-area{
+
+   .pr-40{
+      justify-content: flex-end;
+      display: flex;
+      @media (max-width: $lg){
+         padding-right: 0;
+      }
+   }
+   .pl-40{
+      @media (max-width: $lg){
+         padding-left: 0;
+      }
+   }
+   div img{
+      object-fit: cover;
+      height: 100%;
+      width: 100%;
+      max-height: 100%;
+   }
+   .half{
+      > *{
+         @media (max-width: $lg){
+            max-width: 100%;
+            flex: 0 0 100%;
+         }
+      }
+   }
+} 

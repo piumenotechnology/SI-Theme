@@ -1,0 +1,387 @@
+
+
+
+.background-grey div.gform_wrapper div.gform_body li.gfield div.ginput_container {
+    input {
+        background: transparent;
+    }
+    textarea {
+        background: transparent;
+    }
+}
+
+div.gform_wrapper {
+    div.gform_body {
+        li.gfield:first-child {
+            div.ginput_container {
+                input {
+                    margin-top: 0px;
+                }
+            }
+        }
+        li.gfield {
+            padding-right: 30px;
+            // margin-top: 0px;
+            @media (max-width: 641px) {
+                padding-right: 0px;
+            }
+            div.ginput_container {
+                margin-top: 0px;
+                input {
+                    background: transparent;
+                    padding-left: 15px !important;
+                    padding-bottom: 15px !important;
+                    padding-top: 15px !important;
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    border-radius: 0px;
+                    width: 100%;
+                    margin-top: 40px;
+                    @media (max-width: 641px) {
+                        line-height: 1.5 !important;
+                    }
+                }
+            }
+            &.gfield_error {
+                border: none;
+                background: transparent;
+                padding-right: 30px;
+                width: 100%;
+                margin-right: 0px;
+                max-width: 100% !important;
+                div.ginput_container {
+                    margin-top: 0px;
+                    input {
+                        border-top: none !important;
+                        border-left: none !important;
+                        border-right: none !important;
+                        border-color: red;
+                        width: 100% !important;
+                    }
+                    select {
+                        width: 100%;
+                    }
+                    
+                }
+                label {
+                    margin-top: 0px !important;
+                    span {
+                        display: none;
+                    }
+                }
+                .validation_message {
+                    color: red;
+                }
+            }
+        }
+        li.textarea {
+            margin-top: 50px;
+        }
+        select.gfield_select {
+            -webkit-appearance: none;
+            appearance: none;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            border-radius: 0px;
+            width: 100%;
+            padding-left: 15px !important;
+            background-color: transparent;
+            background-image: url('assets/icons/chevron-down.svg');
+            background-size: 15px;
+            background-position: 95% 50%;
+            background-repeat: no-repeat;
+            margin-top: 40px;
+            padding: 5px 4px 5px 15px;
+        }  
+        textarea {
+            margin-top: 0px;
+            background: transparent;
+        }  
+        li.gfield.radio-btns {
+            margin-top: 40px;
+        }
+        div.ginput_container_radio {
+            label {
+                position: static;
+                width: auto;
+                height: auto;
+                margin: auto;
+                white-space: initial;
+                clip-path: none;
+                font-weight: normal;
+                padding-left: 15px;
+                overflow: initial;
+            }
+            ul.gfield_radio {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                li {
+                    margin-right: 35px;
+                    margin-top: 15px;
+                    display: flex;
+                    align-items: center;
+                    overflow: initial;
+                    label {
+                        padding-left: 20px;
+                        position: relative;
+                        &:before {
+                            content: "";
+                            position: absolute;
+                            z-index: 2;
+                            top: -3px;
+                            right: 0;
+                            left: -25px;
+                            bottom: 0;
+                            background: white;
+                            width: 30px;
+                            height: 30px;
+                            border-radius: 50%;
+                            border: 2px solid black;
+                        }
+                        
+                    }
+                    input {
+                        margin-top: 0px;
+                        position: relative;
+                        opacity: 0;
+                        width: 18px;
+                    }
+                    input:checked + label{
+                        &:before {
+                            content: "";
+                            position: absolute;
+                            z-index: 2;
+                            top: -3px;
+                            right: 0;
+                            left: -25px;
+                            bottom: 0;
+                            background: black;
+                            width: 30px;
+                            height: 30px;
+                            border-radius: 50%;
+                        }
+                        &:after {
+                            content: "";
+                            position: absolute;
+                            z-index: 3;
+                            top: 2px;
+                            right: 0;
+                            left: -19px;
+                            bottom: 0;
+                            width: 20px;
+                            height: 20px;
+                            background: url('assets/icons/checkmark.svg');
+                            background-repeat: no-repeat;
+                            background-size: 20px;
+                        }
+                    }
+                }
+            } 
+        } 
+        li.checkbox {
+            margin-top: 40px;
+        }  
+        ul.gfield_checkbox {
+            li {
+                overflow: initial;
+                input[type="checkbox"] {
+                    margin-top: 0px;
+                    position: relative;
+                    display: none;
+                }
+                input[type="checkbox"] + label:before {
+                    content: "";
+                    position: absolute;
+                    z-index: 2;
+                    top: -3px;
+                    right: 0;
+                    left: -5px;
+                    bottom: 0;
+                    background: white;
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 50%;
+                    border: 2px solid black;
+                }
+                input[type="checkbox"]:checked + label {
+                    padding-left: 40px;
+                    &:before {
+                        content: "";
+                        position: absolute;
+                        z-index: 2;
+                        top: -3px;
+                        right: 0;
+                        left: -5px;
+                        bottom: 0;
+                        background: black;
+                        width: 30px;
+                        height: 30px;
+                        border-radius: 50%;
+                    }
+                    &:after {
+                        content: "";
+                        position: absolute;
+                        z-index: 3;
+                        top: 2px;
+                        right: 0;
+                        left: 0px;
+                        bottom: 0;
+                        width: 20px;
+                        height: 20px;
+                        background: url('assets/icons/checkmark.svg');
+                        background-repeat: no-repeat;
+                        background-size: 20px;
+                    }
+                }
+            }
+        }
+        label {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            margin: -1px;
+            border: 0;
+            padding: 0;
+            white-space: nowrap;
+            clip-path: inset(100%);
+            clip: rect(0 0 0 0);
+            overflow: hidden;
+        }
+        label.textarea-label, label.radio-btns,
+        input[type="checkbox"] + label {
+            position: static;
+            width: auto;
+            height: auto;
+            margin: auto;
+            white-space: initial;
+            clip-path: none;
+            font-weight: normal;
+            padding-left: 15px;
+            overflow: initial;
+        }
+        label.textarea-label {
+            padding-bottom: 15px;
+        }
+        label.radio-btns {
+            padding-left: 0px;
+        }
+    }
+    .gform_footer {
+        padding-top: 0px;
+        input[type="submit"] {
+            @extend .shadow-section-bottom;
+            @extend .btn-one;
+            min-width: 200px;
+            margin-top: 25px;
+            @media (max-width: $md) {
+                margin-bottom: 0px;
+            }
+        }
+    }
+    .validation_error {
+        background: transparent;
+        border: none;
+        display: none;
+    }
+}
+
+// Pricing Page Work
+body.page-template-pricing-page {
+    div.gform_wrapper {
+        margin-top: 0px;
+        div.gform_body {
+            ul.gform_fields {
+                display: flex;
+                flex-wrap: wrap;
+            }
+            li,li.gfield_error {
+                width: 50%;
+                margin-top: 0px;
+                @media (max-width: $md) {
+                    width: 100%;
+                    margin-top: 0px !important;
+                }
+            }
+            li.gfield:first-child input {
+                margin-top: 40px;
+            }
+        }
+    }
+}
+
+/// Rules for gradient form
+#gradient-form {
+    .gform_legacy_markup_wrapper {
+        margin-top: 0;
+        margin-bottom: 0;
+        .gform_title {
+            margin-top: 0;
+        }
+        .gform_fields {
+            margin-top: -1rem!important;
+            .gfield {
+                &.form-half {
+                    width: 100%;
+                    display: inline-block;
+                    @media (min-width: $xxl) {
+                        width: 50%;
+                    }
+                }
+                input {
+                    margin-top: 1rem;
+                }
+                .gfield_checkbox {
+                    input[type=checkbox] {
+                        +label:before {
+                            background: transparent;
+                            border: 1px solid #000000;
+                        }
+                        &:checked+label:before {
+                            background: #000000;
+                            border-color: transparent;
+                        }
+                    }
+                    label {
+                        max-width: unset;
+                        @media(min-width: $xxl){
+                            min-width: 400px;
+                        }
+                    }
+                }
+                &:first-child {
+                    input {
+                        margin-top: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    .gform_wrapper .gform_footer input[type=submit] {
+        background: transparent;
+        border-color: #000000;
+        color: #000000;
+        cursor: pointer;
+        &:hover {
+            outline-width: 1px;
+            outline-color: #000;
+            outline-style: solid;
+        }
+    }
+}
+
+
+// Special validation to remove max-width on error 
+body .gform_wrapper.gform_validation_error .gform_body ul li.gfield.gfield_error:not(.gf_left_half):not(.gf_right_half) {
+    max-width: 100% !important;
+}
+
+//ie 11 fix 
+body.IE {
+    div.gform_wrapper div.gform_body div.ginput_container_radio label {
+        width: 130px;
+    }
+}

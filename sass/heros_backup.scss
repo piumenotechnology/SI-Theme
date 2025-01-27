@@ -1,0 +1,28 @@
+.hero-small {
+    height: 542px;
+    position: relative;
+    .imgOverlay {
+        z-index: 1;
+        position: absolute;
+        // background-color: rgba(0, 0, 0, 0.4); 
+        bottom: 0px;
+        right: 0px;
+        left: 0;
+        top: 0;
+    }
+    .wrapper {
+        height: 542px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .hero-small-inner {
+            z-index: 2;
+        }
+        h1 {
+            line-height: 134px;
+        }
+        .subheading {
+            margin-top: 100px;
+        }
+    }
+}

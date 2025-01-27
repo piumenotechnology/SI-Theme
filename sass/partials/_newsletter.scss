@@ -1,0 +1,94 @@
+
+section.newsletter {
+    h2 {
+        max-width: 100%;
+    }
+    .newsletter--form {
+        .newsletter--form-inner {
+            padding: 0 200px 0 0;
+            @media (max-width: $xl) {
+                padding: 0;
+            }
+        }
+    }
+    .newsletter--info {
+        @media (max-width: $xl) {
+            padding: 15px 0px 0px 100px;
+        }
+        @media (max-width: $lg) {
+            padding: 15px 0px 0px 25px;
+        }
+        @media (max-width: $md) {
+            padding: 15px 0px 0px;
+        }        
+        h3 {
+            margin-bottom: 40px;
+            @media (max-width: $md) {
+                margin-bottom: 15px;
+            }
+        }
+    }
+
+    .privacy-link {
+        @include std-font-size(20);
+    }
+
+    .newsletter--info-inner {
+        div {
+            margin-bottom: 50px;
+            @media (max-width: $md) {
+                margin-bottom: 15px;
+            }
+            p {
+                margin-bottom: 0px;
+            }
+            a {
+                @media (max-width: $lg) {
+                    font-size: 16px;
+                }
+            }
+        }
+        div:last-of-type {
+            margin-bottom: 0px;
+        }
+    }
+
+    label {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+    }
+    
+    .gform_wrapper div.gform_body ul.gform_fields li.gfield input {
+        width: 100% !important;
+        padding: 20px !important;
+        background: white;
+    }
+
+    input[type="submit"] {
+        
+        text-transform: uppercase;
+        @include std-font-size(20);
+        font-weight: 700;
+        text-align: center;
+        transition: all .3s linear;
+        display: inline-block;
+        padding: 20px 20px;
+        min-width: 307px;
+        @media (max-width: $md) {
+          min-width: unset;
+          @include std-font-size(15);
+          padding: 10px !important;
+        }
+        &.center{
+          margin: 0 auto;
+        }
+    }
+}

@@ -1,0 +1,19 @@
+.flexible-content-area.image-left {
+    h2 {
+        padding-right:85px;
+        @media (max-width: $md){
+            padding-right: 25px;
+        }
+    }
+    .additional-text {
+        display: block;
+    }
+    .flexible-content-text {
+        @media (max-width: $xl) {
+            padding-left: 50px;
+        }
+        @media (max-width: $lg) {
+            padding-left: 0px;
+        }
+    }
+}

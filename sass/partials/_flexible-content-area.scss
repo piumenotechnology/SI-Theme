@@ -1,0 +1,33 @@
+.flexible-content-area{
+   .half > div:first-of-type {
+        @media (max-width: $md){
+            // margin-bottom: 50px;
+        }
+
+        @media (max-width: $sm){
+            // margin-bottom: 30px;
+        }
+    }
+    .flexible-content-image {
+        position: relative;
+        @media (max-width: $lg) {
+            margin-bottom: 30px;
+        }
+        .obj-fit {
+            @media (max-width: $lg) {
+                height: 350px;
+            }
+            @media (max-width: $sm) {
+                height: 250px;
+            }
+        }
+    }
+    .flexible-content-area--inner-image {
+        @media (max-width: $xl) {
+            padding-right: 25px;
+        }
+        @media (max-width: $lg) {
+            padding-right: 0px;
+        }
+    }
+}

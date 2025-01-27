@@ -1,0 +1,16 @@
+// Mobile Breakpoints
+$xxl: 1600px;
+$xl: 1200px;
+$lg: 980px;
+$md: 768px;
+$sm: 600px;
+$xs: 450px;
+
+$rfs-breakpoint: 1600px !default;
+
+//Font-size used by responsive font. 
+//Use this for px to rem conversion of non-responsive fonts
+@mixin std-font-size ($sizeValue) {
+    font-size: $sizeValue + px;
+    font-size: ($sizeValue / 16) + rem;
+}

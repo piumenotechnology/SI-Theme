@@ -1,0 +1,114 @@
+body {
+    // font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+
+// h1 {
+//     @include rfs(90px);
+//     // Originally 120px
+//     position: relative;
+//     font-weight: 900;
+//     letter-spacing: 1px;
+//     @media (max-width: $xxl) {
+//         @include rfs(80px);
+//     }
+//     @media (max-width: $lg) {
+//         @include rfs(100px);
+//     }
+//     &:after {
+//         content: "";
+//         position: absolute;
+//         height: 6px;
+//         width: 180px;
+//         bottom: -40px;
+//         left: 0;
+//         @media (max-width: $lg){
+//             bottom: -25px;
+//         }
+//         @media (max-width: $md){
+//             bottom: -15px;
+//             height: 4px;
+//             width: 100px;
+//             left: calc(50% - 50px);
+//         }
+//     }
+// }
+
+// h2, .h2 {
+//     @include rfs(45px);
+//     // Originally 56px;
+//     position: relative;
+//     text-transform: uppercase;
+//     font-weight: 900;
+//     line-height: 1.2;
+//     @media (max-width: $xxl) {
+//         @include rfs(35px);
+//     }
+//     @media (max-width: $lg) {
+//         @include rfs(45px);
+//     }
+//     &:after{
+//         content: "";
+//         position: absolute;
+//         height: 6px;
+//         width: 180px;
+//         bottom: -20px; 
+//         left: 0;
+//         @media (max-width: $md){
+//             bottom: -15px;
+//             height: 4px;
+//             width: 100px;
+//         }
+//     }
+// }
+
+// h2 {
+//     margin-bottom: 50px;
+//     @media (max-width: $md){
+//         margin-bottom: 40px;
+//     }
+// }
+
+// h1.no-line, h2.no-line {
+//     &:after {
+//         content: none;
+//     }
+// }
+// h3 {
+//     @include rfs(22px);
+//     // Originally 27px;
+//     line-height: 32px;
+//     @media (max-width: $xxl) {
+//         @include rfs(19px);
+//     }
+//     @media (max-width: $lg) {
+//         @include rfs(22px);
+//     }
+// }
+
+// p {
+//     margin-bottom: 1em;
+//     line-height: 1.8;
+//     @include rfs(18px);
+//     // Originally 20px
+//     @media (max-width: $xxl) {
+//         @include rfs(16px);
+//     }
+// }
+
+.small-font {
+    @include rfs(16px);
+}
+.large-font {
+    @include rfs(22px);
+    @media (max-width: $xxl) {
+        @include rfs(20px);
+    }
+}
+// font weight
+.bold {
+    font-weight: 700;
+}
+.extra-bold {
+    font-weight: 900;
+}

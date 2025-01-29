@@ -46,7 +46,7 @@
     @apply py-4 px-8;
   }
   .ui-link--outline {
-    @apply border border-current hover:bg-black hover:text-white hover:border-black;
+    @apply border border-solid border-current hover:bg-black hover:text-white hover:border-black;
   }
   .ui-link--light {
     @apply bg-white text-black

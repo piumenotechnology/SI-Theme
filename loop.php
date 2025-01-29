@@ -19,7 +19,7 @@ $cur_cat = get_cat_ID(single_cat_title("", false));
 
 <?php // if there are posts, Start the Loop. 
 ?>
-<div class="blog-content">
+<div class="blog-content grid md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-12">
     <?php
     // vars
     $total = $wp_query->found_posts;
@@ -35,8 +35,8 @@ $cur_cat = get_cat_ID(single_cat_title("", false));
 <?php // load more btn  
 ?>
 <?php if ($totalNum > 9) { ?>
-    <div class="blog-btn--container text-center mt-8">
-        <button class="btn-one btn--load-more" data-page="1" data-url="<?php echo admin_url('admin-ajax.php'); ?>" data-category="<?php echo $cur_cat;  ?>">Load More</button>
+    <div class="blog-btn--container text-center my-10">
+        <button class="ui-link ui-link--outline btn--load-more" data-page="1" data-url="<?php echo admin_url('admin-ajax.php'); ?>" data-category="<?php echo $cur_cat;  ?>">Load More</button>
     </div>
 <?php } ?>
 

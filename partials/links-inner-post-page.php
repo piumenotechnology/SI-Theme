@@ -27,8 +27,8 @@ $grey =  get_field('add_grey_background_links');
 
 
 
-	<ul class="">
-		<li><a href="<?php echo get_permalink( $page_for_posts ); ?>">All</a></li>
+	<ul>
+		<li class="root-cat"><a href="<?php echo get_permalink( $page_for_posts ); ?>">All</a></li>
 	
     <?php wp_list_categories( array(
         'orderby'    => 'name',

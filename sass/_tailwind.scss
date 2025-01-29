@@ -6,10 +6,19 @@
   html {
     @apply font-pathway;
   }
-  h1,h2,h3,h4,h5 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
     @apply font-bold;
   }
-  h1,h2,h3,h4,h5,p {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  p {
     @apply leading-snug;
   }
   a {
@@ -49,7 +58,7 @@
     @apply border border-current hover:bg-black hover:text-white hover:border-black;
   }
   .ui-link--light {
-    @apply bg-white text-black
+    @apply bg-white text-black;
   }
   .ui-link--invert {
     @apply bg-black text-white border border-current hover:bg-transparent hover:text-black;
@@ -138,7 +147,7 @@
       li {
         @apply mb-1.5 pb-2.5 ml-5 list-decimal;
       }
-    } 
+    }
     .sub-list li {
       @apply mb-1.5 pb-2.5 ml-5 list-[circle];
     }
@@ -159,11 +168,10 @@
     @apply absolute;
   }
 
-  @import 'navigation';
-  @import 'partials/home-hero';
-  @import 'partials/longtext';
+  @import "navigation";
+  @import "partials/home-hero";
+  @import "partials/longtext";
 }
-
 
 /* custom classes */
 // .marquee-text .swiper-wrapper{
@@ -179,9 +187,9 @@
   display: none;
 }
 .no-scrollbar {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 .menu-item.menu-item-has-children::after {
-  content: '⌵';
+  content: "⌵";
 }

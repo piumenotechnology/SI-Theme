@@ -1,4 +1,13 @@
 .single-post {
+    .post-header {
+        @apply max-w-screen-2xl relative mx-auto;
+        .post-header--details {
+            @apply w-full md:absolute bottom-0 z-10 text-black md:text-white p-0 md:p-12 mt-5 md:mt-0;
+        }
+        .post-header--bg {
+            @apply w-full max-h-[550px] object-cover brightness-75 md:brightness-50 rounded-xl;
+        }
+    }
     .hero-small {
         background-position: center;
         .hero-small-inner {
@@ -12,6 +21,9 @@
         text-transform: uppercase;
     }
     .entry-meta {
+        .meta-author {
+            @apply border-y border-y-neutral-200;
+        }
          img {
             max-width: 70px;
             margin-right: 20px;
@@ -36,6 +48,11 @@
     }
 }
 .related-posts-container {
-    display: flex;
-    flex-wrap: wrap;
+    @apply grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-12;
+}
+.copylink-containter {
+    @apply border border-white rounded-md py-2 px-3;
+}
+.linktooltips-container {
+    @apply bg-black text-white rounded-md absolute inset-0 py-2 px-3;
 }

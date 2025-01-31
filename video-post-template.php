@@ -9,6 +9,8 @@ $relatedTitle = get_field('related_articles_title', 'options');
 
 ?>
 
+
+
 <?php get_header(); ?>
 
 <section class="post background-grey no-space step" data-animate-enter="main-nav--solid">
@@ -31,6 +33,7 @@ $relatedTitle = get_field('related_articles_title', 'options');
                 <?php if($resources['is_video_post']): ?>
                 <?php echo $resources['video_embed_code']; ?>
                 <?php endif; ?>
+                
                 <?php the_content(); ?>
                 <?php wp_link_pages(array(
                     'before' => '<div class="page-link"> Pages: ',

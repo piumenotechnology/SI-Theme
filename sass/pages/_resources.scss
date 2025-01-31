@@ -24,7 +24,7 @@
     }
     .date-post {
         @include rfs(13px);
-        @apply font-thin text-neutral-400 mt-3;
+        @apply font-thin text-neutral-500 mt-3;
     }
     h2 {
         @apply text-lg font-bold leading-tight transition-all duration-200 ease-in-out;

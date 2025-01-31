@@ -51,8 +51,18 @@
     @apply grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-12;
 }
 .copylink-containter {
-    @apply border border-white rounded-md py-2 px-3;
+    @apply border border-white rounded-md py-2 px-4;
 }
 .linktooltips-container {
-    @apply bg-black text-white rounded-md absolute inset-0 py-2 px-3;
+    @apply bg-black text-white rounded-md absolute inset-0 py-2 px-4 z-10;
 }
+
+.video-container {
+    @apply w-full h-auto md:h-[500px] rounded-xl overflow-hidden;
+    iframe,
+    video {
+      width: 100%;
+      height: 500px;
+      object-fit: cover;
+    }
+  }

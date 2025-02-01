@@ -142,7 +142,7 @@
                     "delay": 0
                 },
                 {
-                    "key": "field_679be2055163d",
+                    "key": "field_679cda4115c18",
                     "label": "Video Duration",
                     "name": "video_duration",
                     "type": "text",
@@ -167,6 +167,28 @@
                     "prepend": "",
                     "append": "",
                     "maxlength": ""
+<<<<<<< HEAD
+=======
+                },
+                {
+                    "key": "field_679ce0aca89e1",
+                    "label": "Attachments",
+                    "name": "attachments",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+>>>>>>> a7d1614533894685085d7fe2f0fdf4a4dbdf6ee7
                 }
             ]
         },
@@ -285,5 +307,9 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
+<<<<<<< HEAD
     "modified": 1738269247
+=======
+    "modified": 1738334396
+>>>>>>> a7d1614533894685085d7fe2f0fdf4a4dbdf6ee7
 }

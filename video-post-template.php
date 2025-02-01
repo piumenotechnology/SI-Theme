@@ -51,9 +51,27 @@ $attachments = $resources['attachments'];
 
 
         <div class="col-span-1 md:border-l md:pl-8 border-gray">
-            <div class="w-full h-7 md:h-[400px] bg-transparent rounded-lg"></div>
-            <hr class="border-neutral-200 my-2.5">
-            <h3 class="text-sm text-left font-semibold text-neutral-700 pb-2.5">Speaker</h3>
+            <!-- <div class="w-full h-7 md:h-[400px] bg-transparent rounded-lg"></div> -->
+            <h3 class="text-md text-left font-bold text-neutral-700">Timestamp</h3>
+            <div class="topics mt-2 space-y-2">
+                <div class="topic cursor-pointer flex items-center justify-between text-black rounded-lg transition duration-300"
+                    onclick="jumpToTime(30, this)">
+                    <span class="mr-4 w-[85%] break-words">Topic 1</span>
+                    <span class="indicator w-3 h-3 rounded-full transition flex-shrink-0"></span>
+                </div>
+                <div class="topic cursor-pointer flex items-center justify-between text-black rounded-lg transition duration-300 mt-4"
+                    onclick="jumpToTime(60, this)">
+                    <span class="mr-4 w-[85%] break-words">Topic 2</span>
+                    <span class="indicator w-3 h-3 rounded-full transition flex-shrink-0"></span>
+                </div>
+                <div class="topic cursor-pointer flex items-center justify-between text-black rounded-lg transition duration-300 mt-4"
+                    onclick="jumpToTime(120, this)">
+                    <span class="mr-4 w-[85%] break-words">Topic 3</span>
+                    <span class="indicator w-3 h-3 rounded-full transition flex-shrink-0"></span>
+                </div>
+            </div>
+            <hr class="border-neutral-200 my-3">
+            <h3 class="text-md text-left font-bold text-neutral-700 pb-2.5">Speaker</h3>
             <div class="flex items-center space-x-3">
                 <img src="<?php echo esc_url($author_avatar); ?>"
                     alt="<?php echo (is_array($resources) && isset($resources['company_logo']['alt'])) ? esc_attr($resources['company_logo']['alt']) : 'Default Alt Text'; ?>"
@@ -124,6 +142,21 @@ $attachments = $resources['attachments'];
             // alert("Failed to copy link.");
         }
         document.body.removeChild(tempInput);
+    }
+
+    function jumpToTime(seconds, element) {
+        const iframe = document.querySelector("iframe");
+        const videoUrl = new URL(iframe.src);
+        const videoId = videoUrl.pathname.split("/embed/")[1].split("?")[0];
+        iframe.src = `https://www.youtube.com/embed/${videoId}?start=${seconds}&autoplay=1`;
+
+        document.querySelectorAll(".topic").forEach(topic => {
+            topic.classList.remove("font-semibold");
+            topic.querySelector(".indicator").style.backgroundColor = "#999999";
+        });
+
+        element.classList.add("font-semibold");
+        element.querySelector(".indicator").style.backgroundColor = "#22c55e";
     }
 </script>
 

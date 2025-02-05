@@ -70,16 +70,30 @@ h2.uppercase {
   @apply bg-black text-white rounded-md absolute inset-0 py-2 px-4 z-10;
 }
 
+// .video-container {
+//   @apply w-full h-auto md:h-[500px] rounded-xl overflow-hidden;
+//   iframe,
+//   video {
+//     width: 100%;
+//     height: 300px;
+//     object-fit: cover;
+//   }
+// }
+
 .video-container {
-  @apply w-full h-auto md:h-[500px] rounded-xl overflow-hidden;
-  iframe,
-  video {
-    width: 100%;
-    height: 500px;
-    object-fit: cover;
-  }
+  @apply w-full h-[300] md:h-[500px] rounded-xl overflow-hidden;
+}
+
+.video-container iframe,
+.video-container video {
+  @apply w-full h-[300px] md:h-[500px] object-cover;
 }
 
 .indicator {
   background-color: #999999;
+}
+
+body.no-scroll {
+  overflow: hidden;
+  height: 100vh;
 }
